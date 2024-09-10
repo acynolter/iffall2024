@@ -1,0 +1,35 @@
+ .centered-text {
+    text-align: center;
+    color: white;
+ }
+.container {
+    max-width: 800px; /* Maximum width of the container */
+    margin: 0 auto;    /* Center the container horizontally */
+    padding: 35px;     /* Add padding inside the container */
+    background-color: greenyellow; /
+}
+
+.italic-text {
+    font-style:italic;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+ h1{
+    font-family: "winsel-variable", serif ;
+    font-size: 3em;
+ }
+ h2 {
+    font-family: "winsel-variable", serif ;
+    font-size: 2em;
+ }
+ p{
+    font-family:Arial, Helvetica, sans-serif; 
+ }
+ .background-pic {
+    background-image: url(https://simmsview.com/wp-content/uploads/2016/07/ghostbusters-1984.jpg?w=640);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+ }
