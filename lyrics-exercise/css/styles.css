@@ -1,0 +1,29 @@
+.background-pic {
+    background-image: url(https://img.freepik.com/free-vector/gradient-background-vector-spring-colors_53876-117271.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}    
+
+h1 {
+    font-family: "satisfy" , sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+h2 {
+    font-family: "satisfy" , sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+}
+p {
+  font-family: "courier-std", monospace; 
+    font-weight: 400; 
+    text-align: center;
+}
+.extra-space-end{
+    margin-bottom: 40px;
+}
