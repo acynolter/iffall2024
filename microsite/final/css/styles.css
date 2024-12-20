@@ -1,0 +1,392 @@
+h1{
+    font-family: "classico-urw", sans-serif;
+    font-style: italic;
+}
+
+h3{
+    font-family: "classico-urw", sans-serif;
+    font-style: regular;
+}
+
+p{
+    font-family: "dolly-new", serif;
+    margin-bottom: 1.8rem;
+}
+
+.home{
+    margin: 0;
+    background-image: url(images/homepage/homepage\ img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    max-width: 45rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+.home-menu{
+    display:inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.menu-toggle{
+    display: none;
+}
+
+.nav-menu{
+display: none;
+position: fixed;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color:#ffead1b5;
+}
+
+.nav-menu ul{
+    list-style: none;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.nav-menu ul li{
+    text-align: center;
+}
+
+.nav-menu ul li a{
+    color:black;
+    text-decoration: none;
+    font-family: "classico-urw", sans-serif;
+}
+
+.nav-menu ul li a:hover{
+    color: white;
+    text-shadow: 2px 0px 17px #000000;
+}
+
+
+.menu-toggle:checked ~ .nav-menu{
+    display: block;
+}
+
+.menu-toggle:checked ~ .home-menu img{
+    display:none;
+}
+.site-menu .selected{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+body{
+    max-width: 45rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/fabricbg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ffead1;
+    margin-top: 90px;
+    margin-bottom: 400px;
+
+}
+
+img{
+        max-width: 45rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .site-menu{
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100%;
+        background-color: black;
+        font-family: "classico-urw", sans-serif;
+        font-style: regular;
+    }
+    
+    .site-menu ul{
+        font-style: none;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 45rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .site-menu ul li{
+        text-align: center;
+    }
+
+    .site-menu ul li a{
+        text-decoration: none;
+        color: #ffead1;
+    }
+
+    .site-menu ul li a:hover{
+        color: white;
+        text-shadow: 0px 0px 20px #FFFFFF;
+    }
+
+
+
+.always50{
+   display:grid;
+   grid-template-columns: 50% 50%;
+}
+
+
+
+
+
+.footer{
+    background-color: black;
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: "classico-urw", sans-serif;
+    color: #ffead1;
+    text-align: center;
+}
+
+
+.footer p{
+    font-family: "classico-urw", sans-serif;
+    margin: 0px;
+}
+html{
+    position: relative;
+}
+.footer img{
+    width: 15rem;
+}
+
+
+
+
+.img-flex{
+    padding:0;
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+.img-flex li{
+    display: block;
+    text-align: center;
+    margin-bottom: 0.2rem;
+    overflow: hidden;
+}
+
+.img-flex img{
+    height:100%;
+    width:cover;
+    object-fit:cover;
+} 
+
+
+
+
+.home-page-button{
+    width:5rem;
+    
+
+}
+
+.site-menu#mobilenav ul li{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.site-menu#mobilenav ul{
+    padding:0;
+}
+
+.no-wrap{
+    clear:both;
+}
+
+
+
+
+@media (max-width: 500px) {
+    .nav-menu ul li a{
+        font-size: 2.5rem;
+    }
+    .nav-menu ul{
+        margin-top: 200px;
+    }
+    img{
+        max-width: 45rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-bottom: 0.2rem;
+    }
+    .always50{
+        grid-template-columns: 100%; 
+    }
+
+    .footer p{
+        font-size: 10px;
+    }
+    .img-flex li{
+        width: 100%;
+        height: auto;
+    }
+    .footer img{
+        width: 10rem;
+        margin:0;
+    }
+    body{
+        margin-bottom: 230px;
+        margin-top: 120px;
+    }
+
+    .site-menu{
+        display:none;
+    }
+   .site-menu#mobilenav{
+    display:block;
+   }
+
+    
+    
+}
+
+@media (min-width: 500px){
+    #float-left{
+        float: left;
+        width: 45%;
+        margin-right: 4%;
+        margin-bottom:1rem;
+    }
+    #float-right{
+        float: right;
+        width: 45%;
+        margin-left: 4%;
+        margin-bottom: 0.2rem;
+    }
+    .special#float-right{
+        max-width: 45rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-bottom: 0.2rem;
+    }
+    h3{
+        font-size: 1.5 em;
+    }
+    .nav-menu ul li a{
+        font-size: 4rem;
+    }
+    .nav-menu ul{
+        margin-top: 170px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    
+    .img-flex li{
+        width: 50%;
+        height: 300px;
+    }
+    .footer img{
+        width: 12.5rem;
+        margin:0;
+    }
+    body{
+        margin-bottom: 270px;
+    }
+    img{
+        margin-bottom: 0.4rem;
+
+    }.site-menu#mobilenav{
+        display:none;
+    }
+}
+
+
+@media (min-width: 640px) {
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .nav-menu ul li a{
+        font-size: 5.5rem;
+    }
+    .nav-menu ul{
+        margin-top: 100px;
+    }
+    .footer p{
+        font-size: 14px;
+    }
+    body{
+        margin-bottom: 300px;
+    }
+    .img-flex li{
+        width: 25%;
+        height: 200px;
+    }
+    
+    .img-flex#only50 li{
+        width:50%;
+        height: 300px;
+    }  
+    
+    .special#float-right{
+        float: right;
+        width: 45%;
+        margin-left: 4%;
+        margin-bottom: 0.2rem;
+    }
+    img{
+        margin-bottom: 1.5rem;
+
+    }
+    .site-menu#mobilenav{
+        display:none;
+    }
+    #float-right{
+        margin-bottom: 1.5rem;
+    }
+    #float-left{
+        margin-bottom: 1.5 rem;
+    }
+    .site-menu{
+        font-size: 1.3em;
+    }
+
+    .always50{
+        margin-bottom: 1.5rem;
+    }
+}
+
